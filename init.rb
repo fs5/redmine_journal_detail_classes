@@ -1,6 +1,6 @@
 require 'redmine'
 
-require 'model_journal_patches'
+require_relative './lib/model_journal_patches'
 
 Redmine::Plugin.register :redmine_journal_detail_classes do
   name 'redmine journal detail classes'
